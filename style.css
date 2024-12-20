@@ -26,16 +26,19 @@ nav{
    gap: 30px;
 }
 #top  button{
-   padding-top: 10px;
-   padding-left:30px;
-   padding-right:50px;
+   padding-top: 5px;
+   padding-left:20px;
+   padding-right:20px;
    padding-bottom:10px;
    background-color: chartreuse;
    font-size:x-large;
    font-family: Cambria;
    margin-right: 50px;
    border-radius: 30px;
-  
+   cursor: pointer;
+}
+#top button:hover{
+   background-color:blue;
 }
 
 
@@ -71,6 +74,7 @@ font-family: Arial,
    background-color: orangered;
    font-size: large;
    font-family:Cambria;
+   cursor: pointer;
 
 }
 .home .b2{
@@ -82,7 +86,17 @@ font-family: Arial,
    background-color: teal;
     font-size: large;
     font-family:Cambria;
-
+    cursor: pointer;
+}
+.home .b2:hover{
+   border: 1px solid;
+   transition: 1s;
+   background-color:yellow;
+}
+.home .b1:hover{
+   border: 1px solid;
+   transition: 1s;
+   background-color: lime;
 }
 .home h1{
    color: aliceblue;
@@ -99,4 +113,52 @@ font-family: Arial,
 .home .button{
    display: flex;
    margin-right: 400px;
+   gap: 10px;
+}
+/*------course------*/
+.course{
+   width: 80%;
+   margin: auto;
+   text-align: center;
+   padding-top: 100px;
+}
+.course h1{
+   font size:90px;
+   font-weight:600px;
+   color:black;
+   
+}
+p{
+   color:green;
+   font-size: 18px;
+   font-weight: 300;
+   line-height:22px;
+   padding: 10px;
+}
+.row{
+   margin-top: 5%;
+   display: flex;
+   justify-content: space-between;
+}
+.course-col{
+   flex-basis: 31%;
+   background: aqua;
+   border-radius: 10px;
+   margin-bottom: 5%;
+   padding: 20px 12px;
+   box-sizing: border-box;
+   transition: 0.5s;
+   gap: 10px;
+}
+h3{
+   text-align: center;
+   font-weight: 600;
+   margin: 10px o;
+}
+.course-col :hover{
+   box-shadow: 0 0 20px 0px black;
+   
+}
+.course .row div{
+   border-radius: 300px;
 }
