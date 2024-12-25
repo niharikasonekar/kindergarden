@@ -167,16 +167,81 @@ h3{
    padding-top: 7%;
 }
 
-
-.container
-
-   
-
-
-.footer{
-
-background-color:aqua  ;
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+TZ+Guides&family=Poppins:wght@400;500;600;700&display=swap');
+.container{
+   max-width: 1170px;
+   box-sizing: border-box;
+   font-family:sans-serif;
+   padding: 0;
+   margin: 0;
 }
-.row footer col{
+ .footer{
+background-color:lawngreen;
+line-height:1.5 ;
+font-family: "Playwrite TZ Guides", serif;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+width: 100%;
+}
+.footer .footer .row .footer-col ul div{
+   display: flex;
+   justify-content: center;
+   align-items: center;
    
+
+}
+
+
+.activity section .button class b3{
+
+}
+.activity div{
+   position: absolute;
+   float: right;
+   width: 70%;
+   display: flex ;
+   justify-content: center;
+   align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@ media(max-width: 450px;){
+   #bars{
+
+   }
+
 }
