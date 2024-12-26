@@ -196,14 +196,22 @@ width: 100%;
 .activity section .button{
 
 }
-.activity div{
+
+.activities div{
    position: absolute;
    float: right;
    width: 70%;
-   display: flex ;
+   display:flex ;
    justify-content: center;
    align-items: center;
+  
 }
+
+.images img{
+ 
+   margin-right: 20px;
+}
+
 
 
 
