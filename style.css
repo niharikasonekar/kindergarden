@@ -167,13 +167,13 @@ h3{
    padding-top: 7%;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Playwrite+TZ+Guides&family=Poppins:wght@400;500;600;700&display=swap');
 .container{
    max-width: 1170px;
    box-sizing: border-box;
    font-family:sans-serif;
    padding: 0;
    margin: 0;
+
 }
  .footer{
 background-color:lawngreen;
@@ -181,7 +181,7 @@ line-height:1.5 ;
 font-family: "Playwrite TZ Guides", serif;
 justify-content: center;
 align-items: center;
-min-height: 100vh;
+min-height: 45vh;
 width: 100%;
 }
 .footer .footer .row .footer-col ul div{
@@ -193,7 +193,7 @@ width: 100%;
 }
 
 
-.activity section .button class b3{
+.activity section .button{
 
 }
 .activity div{
@@ -207,41 +207,17 @@ width: 100%;
 
 
 
+/* @media(max-width: 450px;){
+#bars{
+   position: absolute;
+   top:4%;
+   right:10%;
+   font-size: 40px;
+   z-index: 50;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@ media(max-width: 450px;){
-   #bars{
-
-   }
+.tophead ul{
+   display: flex;
+   flex-direction: column; */
 
 }
