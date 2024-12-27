@@ -193,14 +193,26 @@ width: 100%;
 
 
 .activities {
-   display: flex;
+   display: grid;
+   /* justify-content: center;
+   align-items: center;
+   flex-direction: column; */
 
 }
 
 .activities .act1{
-   width: 50%;
+   /* width: 50%; */
+   display: block;
 }
+.activities button .b3{
+   padding-top: 10px;
+   padding-left:40px;
+   padding-right:40px;
+   padding-bottom:5px;
+   font-size: large;
 
+   
+}
 .activities .images{
    width: 50%;
 }
