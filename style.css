@@ -14,7 +14,6 @@
    
 }
 
-
 nav{
    display: flex;
    gap: 20px;
@@ -57,7 +56,7 @@ nav{
    background-size: cover;
    display: flex;
    justify-content: center;
-   align-items: center;
+   align-items: center; 
    flex-direction: column;
 }
 .home h1{
@@ -193,12 +192,20 @@ width: 100%;
 }
 
 
-.activity section .button{
+.activities {
+   display: flex;
 
 }
 
+.activities .act1{
+   width: 50%;
+}
+
+.activities .images{
+   width: 50%;
+}
 .activities div{
-   position: absolute;
+   
    float: right;
    width: 70%;
    display:flex ;
@@ -208,15 +215,42 @@ width: 100%;
 }
 
 .images img{
- 
-   margin-right: 20px;
+ width: 200px;
+ height: 200px;
+   /* margin-right: 20px; */
 }
 
+.images .abo2{
+   position: absolute;
+   top: 1500px;
+   left: 59%;
+   border-radius: 50%;
+}
+.images .abo3{
+   position: absolute;
+   top: 1500px;
+   left: 73%;
+   border-radius: 50%;
+}
+.images .abo1{
+   position: absolute;
+   border-radius: 200%;
+   top: 1350px;
+   left: 65%;
+   outline: 2px;
+  
+  
+  
+}
+.main section div .home{
+   position: absolute;
+   border-radius: 20%;
+   
+   
+}
 
-
-
-/* @media(max-width: 450px;){
-#bars{
+@media(max-width: 450px;){
+#top{
    position: absolute;
    top:4%;
    right:10%;
@@ -226,6 +260,14 @@ width: 100%;
 
 .tophead ul{
    display: flex;
-   flex-direction: column; */
+   flex-direction: column;
+
+  
+
+}
+
+
+
+
 
 }
