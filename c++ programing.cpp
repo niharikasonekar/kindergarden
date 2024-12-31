@@ -1,20 +1,25 @@
-
+// Online C++ compiler to run C++ program online
 #include <iostream>
 using namespace std;
-int fibo(int number)
-{
-    if(number<=1)
-{
-    return number;
+    
+int targetsum(int arr[],int n , int target){
+    for( int i=0;i<=n;++i){
+        for(int j=i+1;j<=n; j++){
+            if(arr[i]+arr[j]==target){
+                cout<<i <<j;
+            }
+        }
+    }
+    return 0;
 }
-return fibo(number-1)+fibo(number-2);
 
-}
-int main()
-{
-    int n;
-    cout<<"enter n";
-    cin>>n;
-    cout<<fibo(n);
+
+
+int main(){
+    int arr[]={1,2,5,6,7};
+    int target=12;
+    int n=4;
+    targetsum(arr,n,target);
+    
 }
 
