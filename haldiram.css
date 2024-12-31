@@ -60,9 +60,36 @@ cursor: pointer;
     background-image: url(Haldiram_Wedding_Banner_New-02.webp);
     background-size: cover;
 }
-. section h1{
-    display: flex;
-    justify-content: space-between;
-text-align: center;
+
+.images{
+    width: 100%;
 }
 
+ .images h1{
+
+   text-align: center;
+   height: 80px;
+   font-size: 50px;
+}
+
+.images .imgdiv{
+    border: 2px solid black;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+/* text-align: center; */
+/* flex-direction: column; */
+gap: 10px;
+
+}
+.rs{
+    text-decoration: line-through;
+}
+.images button{
+    background-color:red;
+    width: 200px;
+    height: 35px; 
+}
+.button.b1{
+    background-color: aquamarine;
+}
