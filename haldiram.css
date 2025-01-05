@@ -73,7 +73,7 @@ cursor: pointer;
 }
 
 .images .imgdiv{
-    border: 2px solid black;
+    
     display: flex;
     justify-content:center;
     flex-wrap: wrap;
@@ -89,7 +89,102 @@ gap: 10px;
     background-color:red;
     width: 200px;
     height: 35px; 
+    font-size: 20px;
+    
 }
-.button.b1{
-    background-color: aquamarine;
+.christmas .christ{
+    
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    gap:10px
 }
+.christ button{
+    background-color: red;
+    width: 200px;
+    height: 35px; 
+    font-size: 20px;
+
+}
+.christmas h1{
+    height: 80px;
+    font-size: 50px;
+
+}
+ .b2{
+    background-color: red;
+    width: 200px;
+    height: 35px;
+     font-size:20px;
+     
+}
+.treats h1{
+     height: 80px;
+    font-size: 50px;
+
+}
+.treats .fruit{
+       gap:10px;
+display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+.treats button{
+    background-color: red;
+    width: 200px;
+    height: 35px; 
+    font-size: 20px;
+}
+.b3{
+    background-color: red;
+    width: 200px;
+    height: 35px;
+     font-size:20px;
+} 
+#fresh .saunf{
+    gap:10px;
+    display: flex;
+  justify-content:center;
+  flex-wrap: wrap;
+}
+#fresh h1{
+    height: 80px;
+    font-size: 50px;
+}
+  #fresh  button{
+    background-color: red;
+    width: 200px;
+    height: 35px; 
+    font-size: 20px;
+  }
+  .b4{
+    background-color: red;
+    width: 200px;
+    height: 35px;
+     font-size:20px;
+  }
+.pic{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+       gap:20px;
+  }
+.about h1{
+    height: 80px;
+    font-size: 28px;
+    
+}
+.about p{
+    font-size: 18px;
+}
+.about button{
+    background-color: red;
+    padding: 14px;
+    width: 110px;
+    color:white;
+    font-size: larger;
+    border:none;
+    text-align: center;
+}
+
+<!------footer------>
