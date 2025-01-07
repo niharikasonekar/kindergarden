@@ -1,21 +1,20 @@
+// Online C++ compiler to run C++ program online
 #include <iostream>
 using namespace std;
+struct info
+{
+    int roll;
+    char section;
+    
+};
+int main()
+{
+    info fv;
+    info *sv=&fv;
+    fv.roll=420;
+    fv.section='c';
+    cout<<sv->section;
+}
+    
 
-   string reverse(string str){
-   int i=0;
-   int j=str.length()-1;
-   while(i<=j){
-       char temp=str[i];
-       str[i]=str[j];
-       str[j]=temp;
-       i++;
-       j--;
-   }
-  
-   return str;
-}
-int main() {
-   string str="coding";
-   cout<<reverse(str);
-   return 0;
-}
+
